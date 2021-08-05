@@ -19,7 +19,7 @@ public class Base extends Application {
         Group gControls = new Group(tvc.getTextView());
         Group gTriangle = new Group(gv);
         Group g = new Group(gControls, gTriangle);
-        Scene s = new Scene(g, 500, 500);
+        Scene s = new Scene(g, 600, 600);
         
         primaryStage.setTitle("CSI5390 Machado Right Triangle");
         primaryStage.setScene(s);

@@ -11,7 +11,7 @@ public class GraphicalView extends Group implements Observer{
     private Double[] origin;
     private Double[] y;
     private Double[] x;
-    private double yOffset = 150.0;
+    private double yOffset = 100.0;
     private double xOffset = 25.0;
     
     public GraphicalView(RightTriangle rt) {
